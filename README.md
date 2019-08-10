@@ -54,6 +54,12 @@
 - webpack gulp
 - 移动端
 - react
+  - 新版本的一些属性
+  - 声明周期
+  - redux
+  - state props
+  - 可控组件 非可控组件
+  - 容器组件， UI组件
 - 自己做过的项目
 
 - 未来规划
