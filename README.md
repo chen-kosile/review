@@ -4,15 +4,33 @@
 
 - html 问的比较少
   H5新特性
+  行内元素，块级元素
 - css 问的比较少
-  css3性特性
-  flex
-  postion
-  盒模型
-  动画
-  css优先级
-  垂直居中
-  单位，像素问题
+  - css3性特性
+    boder-image, flex grid trasition animation transform 伪类 x:first-of-type 属于父元素的第一个 x 元素
+    box-shadow：水平阴影， 垂直阴影的位置， 模糊距离，阴影的的颜色阴影开始方向 filter滤镜
+  - flex
+    父元素属性：flex-direction 主轴方向 flex-wrap 子元素总宽度大于父元素的时候换行
+    flex-flow flex-direction和flex-wrap的简写形式
+    justify-content：子元素在主轴方向上的排列
+    align-items：子元素在交叉轴方向的排列方式
+    align-content: 多根轴线的对齐方式
+    元素属性：order 排序， flex-grow定义子元素放大比例 flex-shrink定义子元素缩小比例
+    flex-basis 定义子元素在分配多余空间前的大小， 浏览器根据这个属性计算主轴剩余的空间
+    align-self：允许单个项目与其他项目不一样的对齐方式
+  - postion
+    static relative（相对自身定位） absolute（相对上级不为static元素定位） fixed（相对浏览器窗口定位） sticky（relatvie+fixed）
+  - 盒模型
+    box-sizing: border-box, content-box;
+    content-box: 标准的布局方式 width = content
+    border-box: IE盒子模型 width = content + padding + border
+  - 动画
+    traisiton animation requestAnimationFrame
+  - css优先级
+  - 垂直居中
+  - 单位，像素问题
+  - 布局
+  - BFC
 - js
   1. 变量
   2. 数据类型
